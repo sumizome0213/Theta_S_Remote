@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nittcprocon.thetasremote.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:layout_width="171dp"
+            android:layout_height="171dp"
+            android:id="@+id/shutter"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <ImageButton
+            android:layout_width="92dp"
+            android:layout_height="76dp"
+            android:id="@+id/modevideo"
+            android:layout_gravity="right|top"
+            android:src="@android:drawable/ic_menu_slideshow" />
+
+        <ImageButton
+            android:layout_width="92dp"
+            android:layout_height="76dp"
+            android:id="@+id/modecamera"
+            android:layout_gravity="left|top"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <ImageButton
+            android:layout_width="92dp"
+            android:layout_height="76dp"
+            android:id="@+id/rec"
+            android:layout_gravity="left|bottom"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:layout_width="92dp"
+            android:layout_height="76dp"
+            android:id="@+id/stop"
+            android:layout_gravity="right|bottom"
+            android:src="@android:drawable/ic_media_pause" />
+    </FrameLayout>
+</RelativeLayout>
